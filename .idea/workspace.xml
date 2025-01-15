@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nesterd_loops/Building.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nesterd_loops/Travelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/nesterd_loops/Travelling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="071f3b2c-0132-431a-8b8d-e94a5c510dff" name="Changes" comment="" />
+      <changelist id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="" />
       <created>1731249156332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
