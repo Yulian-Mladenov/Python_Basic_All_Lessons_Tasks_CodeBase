@@ -1,34 +1,33 @@
 floors = int(input())
 rooms_per_floor = int(input())
 
-even_floors = 0
-O = 0
+Offices = 0
+Apartments = 0
 
-odd_floors = 0
-A = 0
-
-typ_of_room = ''
+type_of_room = ''
 floor_number = 0
 room_number = 0
 
 
-# with this loop you broke on indexes the floors qty, and find how much are odd and even
+# with this loop you broke on indexes the floors qty, and find how much are odd and even floors have
 # automatically how much apartments and offices.
-for index_of_floors in range(floors + 1):
+for index_of_floors in range(1, floors + 1, -1):
     floor_number += 1
     if index_of_floors % 2 == 0:
-        even_floors += 1
-        O += 1
+        Offices += 1
+        type_of_room = 'A'
     else:
-        odd_floors += 1
-        A += 1
+        Apartments += 1
+        type_of_room = 'O'
 
     for index_of_rooms in range(rooms_per_floor + 1):
         room_number += 1
 
-print(f'{}')
+    print(f'{type_of_room}{floor_number}{room_number}')
 
 
 
+# if len(floors) == 1:
+#     type_of_room = "L"
 
 
