@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="" />
+    <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nested_loops_exercise/Numbered_Triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested_loops_exercise/Number_Pyramid.py" beforeDir="false" afterPath="$PROJECT_DIR$/nested_loops_exercise/Number_Pyramid.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.Clock">
+  <component name="RunManager" selected="Python.Number_Pyramid">
     <configuration name="Building" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multiplication table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Number_Pyramid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nested loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nested_loops_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested loops/Multiplication table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nested_loops_exercise/Number_Pyramid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Number_Pyramid" />
         <item itemvalue="Python.Clock" />
         <item itemvalue="Python.Building" />
         <item itemvalue="Python.Sum of two numbers (1)" />
         <item itemvalue="Python.Sum of two numbers" />
-        <item itemvalue="Python.Multiplication table" />
       </list>
     </recent_temporary>
   </component>
