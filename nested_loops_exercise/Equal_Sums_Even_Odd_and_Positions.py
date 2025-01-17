@@ -31,7 +31,7 @@ if even_elements == odd_elements:
     print(number_1)
 else:
     print('no match')
-    
+
 for number in range(number_1, number_2 + 1):
     for indexes in range(number):
         if indexes % 2 == 0:
@@ -42,7 +42,3 @@ for number in range(number_1, number_2 + 1):
     if even_elements == odd_elements:
         print(number)
 
-
-
-
->>>>>>> fa66391019a4bf44e9095fc165d5a44430fc4d94
