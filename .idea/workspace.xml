@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py" beforeDir="false" afterPath="$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
