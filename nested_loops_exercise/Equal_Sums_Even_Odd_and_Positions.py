@@ -78,7 +78,7 @@
 
 
 # third approach
-# Why is not working?
+# Why is not working? Because you are treating them like a values not like indices!
 # number_1 = int(input())
 # number_2 = int(input())
 #
@@ -115,9 +115,3 @@
 #
 #     if even_elements == odd_elements:
 #         print(f'{iteration}', end=' ')
-
-total_sum = 0
-
-for iteration in range(1, 10 + 1):
-    total_sum += iteration
-print(total_sum)
