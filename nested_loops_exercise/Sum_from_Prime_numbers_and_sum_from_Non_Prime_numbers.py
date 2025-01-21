@@ -1,11 +1,10 @@
 
-# The prototype of my first approach
+# The prototype of my first approach.
+# My first approach. Cover betwenn 50-60 % of the task according Chat GPT opinion.
+
 # natural_number = 0
 # not_natural_number = 0
 #
-
-# My first approach. Cover betwenn 50-60 % of the task according Chat GPT opinion.
-
 # while True:
 #     number = input()
 #     if number == "stop":
@@ -35,50 +34,29 @@
 
 
 
-# Second approach
-natural_number = 0
-not_natural_number = 0
 
-sum_prime_numbers = 0
-sum_non_prime_numbers = 0
+# the teacher approach
 
+prime_number_sum = 0
+non_prime_number_sum = 0
 
 while True:
     non_prime_number = False
-    new_input = input()
-    if new_input == "stop":
+    old_input = input()
+    if old_input == "stop":
         break
 
-    new_number = int(new_input)
+    new_input = int(old_input)
 
-    if new_number < 0:
+    if new_input < 0:
         print("Number is negative.")
-        continue
 
-    parsing_data = int(number)
-    if parsing_data % 1 == 0 or parsing_data % parsing_data == 0:
-        natural_number += parsing_data
-
-    else:
-        not_natural_number += parsing_data
-
-print(f'"Sum of all prime numbers is: {natural_number}"')
-print(f"Sum of all non prime numbers is: {not_natural_number}")
-
-    if new_number <= 1:
-        sum_non_prime_numbers += new_number
+    if new_input <= 1:
+        non_prime_number_sum += new_input # here need another new variable because maybe will return error. Because is not clear the value of which variable to use.
+# the variable on line 45 is a str type or the variable of line 49 which is a int type!
         non_prime_number = True
 
-    else:
-        for number in range(2, int(new_number ** 0.5) + 1):
-            if new_number % number == 0:
-                sum_non_prime_numbers += new_number
-                non_prime_number = True
-                break
 
-    if not non_prime_number:
-        sum_prime_numbers += new_number
 
-print(f"Sum of all prime numbers is: {sum_prime_numbers}")
-print(f"Sum of all non prime numbers is: {sum_non_prime_numbers}")
+
 
