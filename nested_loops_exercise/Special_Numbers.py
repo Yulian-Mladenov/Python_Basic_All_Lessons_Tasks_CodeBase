@@ -11,6 +11,9 @@
 #         elif number % str_to_int == 0:
 #             concatenation =
 
+# here i stopped because it`s a moment to find out how to concatenate each element from the for loop in one string
+# and when all are collected to parse them in integer again or print them directly like a string.
+
 
 number = int(input())
 magic_number = False
@@ -19,15 +22,16 @@ for special_number in range(1111, 10000):
     parsing_to_str = str(special_number)
     for string_number in parsing_to_str:
         if int(string_number) == 0:
-            #magic_number = False
+            # magic_number = False
+            # magic_number_is_found = False
             break
         elif number % int(string_number) == 0:
             magic_number = True
-        else:
-            magic_number = False
-            break
+        # else:
+        #     magic_number = False
+        #     break
 
-    if magic_number:
+    if magic_number is True:
         print(special_number, end=" ")
 
 # important - How the second for loop concatenate all even divisible digits? He not concatenate them! The if-else
@@ -57,4 +61,5 @@ for special_number in range(1111, 10000):
 
 # Find out why eliminating line 22 the code is not working correctly.
 
-
+# Този код с флагови променливи учи как да изградиш крайния резултат без да използваш аритметика. Събиране,
+# изваждане и т.н. Само с флагови променливи като превключватели събираш резултата и го изграждаш напълно.
