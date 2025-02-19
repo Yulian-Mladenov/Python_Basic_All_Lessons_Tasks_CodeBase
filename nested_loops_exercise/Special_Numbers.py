@@ -22,15 +22,15 @@ for special_number in range(1111, 10000):
     parsing_to_str = str(special_number)
     for string_number in parsing_to_str:
         if int(string_number) == 0:
-            magic_number_is_found = False
+            # magic_number_is_found = False
             break
         elif number % int(string_number) == 0:
             magic_number = True
-        else:
-            magic_number = False
-            break
+        # else:
+        #     magic_number = False
+        #     break
 
-    if magic_number:
+    if magic_number is True:
         print(special_number, end=" ")
 
 # important - How the second for loop concatenate all even divisible digits? He not concatenate them! The if-else
