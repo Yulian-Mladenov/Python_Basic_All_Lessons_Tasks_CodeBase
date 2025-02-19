@@ -16,18 +16,13 @@
 
 
 number = int(input())
-magic_number_is_found = False
-
 magic_number = False
 
 for special_number in range(1111, 10000):
     parsing_to_str = str(special_number)
     for string_number in parsing_to_str:
         if int(string_number) == 0:
-            magic_number_is_found = True
-            break
-        elif number % int(string_number) == 0:
-            magic_number = False
+            magic_number_is_found = False
             break
         elif number % int(string_number) == 0:
             magic_number = True
@@ -54,5 +49,5 @@ for special_number in range(1111, 10000):
 # his 25% from the job, so automatically all process stop because is useless to check the rest of the digits if one
 # of them cannot cover his own 25%.
 
-# Този код с флагови променливи учи как да изградиш крайния резултат без да използваш аритметика. Събиране, изваждане и т.н.
-# Само с флагови променливи като превключватели събираш резултата и го изграждаш напълно.
+# Този код с флагови променливи учи как да изградиш крайния резултат без да използваш аритметика. Събиране,
+# изваждане и т.н. Само с флагови променливи като превключватели събираш резултата и го изграждаш напълно.
