@@ -19,7 +19,7 @@ for special_number in range(1111, 10000):
     parsing_to_str = str(special_number)
     for string_number in parsing_to_str:
         if int(string_number) == 0:
-            magic_number = False
+            #magic_number = False
             break
         elif number % int(string_number) == 0:
             magic_number = True
@@ -48,5 +48,13 @@ for special_number in range(1111, 10000):
 
 # Този код с флагови променливи учи как да изградиш крайния резултат без да използваш аритметика. Събиране, изваждане и т.н.
 # Само с флагови променливи като превключватели събираш резултата и го изграждаш напълно.
+
+# Is printing all number in consequence because after one time the flag variable is switched to True, the value remain True.
+# And after this digit if come a digit not even divisible on zero the code automatically go on the bottom and execute the last two line.
+# The first line contain condition if magic_number is true print the number. And is true because the previous digit was even divisible and set up the value of hte magic_number on True.
+# Because there is no alternative to say stop do not execute and print this number. That`s why is the last case else, to switch the value of magic_number
+# on False and doing that stop the printing of the current number. Try with number 1117 and see what`s happen.
+
+# Find out why eliminating line 22 the code is not working correctly.
 
 
