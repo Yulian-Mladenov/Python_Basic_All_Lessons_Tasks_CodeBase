@@ -51,3 +51,50 @@ if finish_flag_indicator:
 # probably solutions: the place of the code blocks and variables in the scopes are not correct. Probably is necessary
 # to use flag variables to use the Finish statement to terminate the program and print the results - is not working,
 # i tried.
+
+
+# Claude solution one
+total_tickets_quantity = 0
+student_ticket_total = 0
+standard_ticket_total = 0
+kid_ticket_total = 0
+
+while True:
+    movie_name = input()
+    if movie_name == "Finish":
+        break
+
+    empty_places_for_current_movie = int(input())
+    ticket_quantity_per_movie = 0
+
+    while ticket_quantity_per_movie < empty_places_for_current_movie:
+        type_of_ticket = input()
+        if type_of_ticket == "End":
+            break
+
+        if type_of_ticket == "student":
+            student_ticket_total += 1
+        elif type_of_ticket == "standard":
+            standard_ticket_total += 1
+        elif type_of_ticket == "kid":
+            kid_ticket_total += 1
+
+        ticket_quantity_per_movie += 1
+
+    # Calculate percentage for this movie
+    percent_full = (ticket_quantity_per_movie / empty_places_for_current_movie) * 100
+    print(f"{movie_name} - {percent_full:.2f}% full.")
+
+    # Add to total
+    total_tickets_quantity += ticket_quantity_per_movie
+
+# Calculate final percentages
+if total_tickets_quantity > 0:  # Avoid division by zero
+    percentage_of_student_tickets = (student_ticket_total / total_tickets_quantity) * 100
+    percentage_of_standard_ticket = (standard_ticket_total / total_tickets_quantity) * 100
+    percentage_of_kid_tickets = (kid_ticket_total / total_tickets_quantity) * 100
+
+    print(f"Total tickets: {total_tickets_quantity}")
+    print(f"{percentage_of_student_tickets:.2f}% student tickets.")
+    print(f"{percentage_of_standard_ticket:.2f}% standard tickets.")
+    print(f"{percentage_of_kid_tickets:.2f}% kids tickets.")
