@@ -52,8 +52,10 @@ elif season == 'Winter':
     elif number_of_people > 12:
         first_price = winter_price - (winter_price * more_than_twelve)
 
-if season == 'Spring' or season == 'Winter' or season == 'Summer' and number_of_people % 2 == 0:
-    first_price -= first_price * 0.05
+if number_of_people % 2 == 0 and season == 'Spring' or season == 'Winter' or season == 'Summer':
+    first_price = first_price - (first_price * 0.05)
+else:
+    first_price = first_price
 
 
 # final result
@@ -62,4 +64,6 @@ if budget >= first_price:
 else:
     print(f"Not enough money! You need {first_price - budget:.2f} leva.")
 
+
+print()
 # this code not return 100/100 points. There is an issue in line 55. Why and what is the issue?
