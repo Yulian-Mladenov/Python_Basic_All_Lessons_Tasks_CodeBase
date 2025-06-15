@@ -28,8 +28,6 @@ elif budget > 1000:
     price = budget * 0.90
     accommodation_type = 'Hotel'
 
-spend_money = abs(budget - price)
-
 print(f"Somewhere in {destination}")
 print(f"{accommodation_type} - {price:.2f}")
 
