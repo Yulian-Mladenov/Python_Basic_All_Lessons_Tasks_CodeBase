@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="071f3b2c-0132-431a-8b8d-e94a5c510dff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+<<<<<<< Updated upstream
+    <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py" beforeDir="false" afterPath="$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,10 +45,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.Sum of two numbers">
-    <configuration name="Combinations with numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Equal_Sums_Even_Odd_and_Positions">
+    <configuration name="Building" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nested loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nesterd_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested loops/Combinations with numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nesterd_loops/Building.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Clock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/For loop - Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nesterd_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/For loop - Exercise/Histogram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nesterd_loops/Clock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multiplication table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Equal_Sums_Even_Odd_and_Positions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nested loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nested_loops_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested loops/Multiplication table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sum of two numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Number_Pyramid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nested loops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nested_loops_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested loops/Sum of two numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nested_loops_exercise/Number_Pyramid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="debug example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sum of two numbers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/If-Else conditions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nesterd_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/If-Else conditions/debug example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nesterd_loops/Sum of two numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,18 +155,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sum of two numbers" />
-        <item itemvalue="Python.Multiplication table" />
-        <item itemvalue="Python.Combinations with numbers" />
-        <item itemvalue="Python.debug example" />
-        <item itemvalue="Python.Histogram" />
+        <item itemvalue="Python.Equal_Sums_Even_Odd_and_Positions" />
+        <item itemvalue="Python.Number_Pyramid" />
+        <item itemvalue="Python.Clock" />
+        <item itemvalue="Python.Building" />
+        <item itemvalue="Python.Sum of two numbers (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="071f3b2c-0132-431a-8b8d-e94a5c510dff" name="Changes" comment="" />
+      <changelist id="9ada8d3a-f095-4036-94c3-3d69d8bc1a23" name="Changes" comment="" />
       <created>1731249156332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -186,5 +190,26 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/If-Else conditions" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nested_loops_exercise/Equal_Sums_Even_Odd_and_Positions.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

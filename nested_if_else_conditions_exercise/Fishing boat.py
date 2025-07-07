@@ -52,6 +52,14 @@ elif season == 'Winter':
     elif number_of_people > 12:
         first_price = winter_price - (winter_price * more_than_twelve)
 
+# if number_of_people % 2 == 0 and season == 'Spring' or season == 'Winter' or season == 'Summer' :
+#     first_price -= first_price * 0.05
+
+# the issue is because Python is adding parenteses but hidden from you, so you must write them before.
+# Same like down below line:
+if number_of_people % 2 == 0 and (season == 'Spring' or season == 'Winter' or season == 'Summer'):
+    first_price -= first_price * 0.05
+
 if number_of_people % 2 == 0 and season == 'Spring' or season == 'Winter' or season == 'Summer':
     first_price = first_price - (first_price * 0.05)
 else:
