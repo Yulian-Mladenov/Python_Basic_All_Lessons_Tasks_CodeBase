@@ -38,9 +38,14 @@ elif flower_type == "Gladiolus":
     if Number_of_flowers < 80:
         price_after_discount = price_before_discount + (price_before_discount * 0.20)
 
+else:
+    price_before_discount = Number_of_flowers * flower_price
+
+
 if Budget >= price_after_discount:
     difference = Budget - price_after_discount
     print(f"Hey, you have a great garden with {Number_of_flowers} {flower_type} and {difference:.2f} leva left.")
 else:
     difference = price_after_discount - Budget
     print(f"Not enough money, you need {difference:.2f} leva more.")
+
