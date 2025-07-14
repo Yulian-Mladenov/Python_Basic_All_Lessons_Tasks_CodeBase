@@ -54,7 +54,7 @@
 
 
 flower_type = input()
-Number_of_flowers = float(input())
+Number_of_flowers = int(input())
 Budget = float(input())
 
 flower_price = 0
@@ -72,8 +72,8 @@ elif flower_type == "Gladiolus":
 
 price = Number_of_flowers * flower_price
 
-
 if flower_type == "Roses":
+    flower_price = 5
     if Number_of_flowers > 80:
         price -= (price * 0.10)
     else:
