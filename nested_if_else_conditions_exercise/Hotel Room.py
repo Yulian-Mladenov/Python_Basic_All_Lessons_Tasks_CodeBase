@@ -22,7 +22,12 @@ final_price_with_discount = month * number_of_the_nights
 
 if month == 'May' or month == 'October':
     studio_price = 50
+    if number_of_the_nights > 14:
+        final_price_with_discount -= final_price_without_discount * 0.30
+    elif number_of_the_nights > 7:
+        final_price_with_discount -= final_price_with_discount * 0.05
     apartment_price = 65
+
 
 elif month == 'June' or month == 'September':
     studio_price = 75.20
@@ -32,11 +37,15 @@ elif month == 'July' or month == 'August':
     studio_price = 76
     apartment_price = 77
 
+if number_of_the_nights > 14:
+    final_price_with_discount -= final_price_without_discount * 0.05
+else:
+    final_price_without_discount = final_price_without_discount
+
+
 if number_of_the_nights > 14 and month == 'May' or month == 'October':
-
-
-print(f"Apartment:{apartment_price * number_of_the_nights:.2f} lv.")
-print(f"Studio: {studio_price * number_of_the_nights:.2f} lv.")
+    print(f"Apartment:{apartment_price * number_of_the_nights:.2f} lv.")
+    print(f"Studio: {studio_price * number_of_the_nights:.2f} lv.")
 
 
 
