@@ -5,10 +5,10 @@ min_number = 0
 
 for index in range(numbers):
     number = int(input())
-    if number > min_number:
-        max_number += number
-    elif number > max_number:
-        min_number += number
+    if number < min_number:
+        min_number = number
+    if number > max_number:
+        max_number = number
 
-print(int(max_number))
-print(int(min_number))
+print(f'Max number: {max_number}')
+print(f'Min number: {min_number}')

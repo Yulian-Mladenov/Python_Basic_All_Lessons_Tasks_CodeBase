@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79229112-6b44-41f8-9a69-373a0dbcfad5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/For loop review/Adding numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/For loop review/Numbers in row.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/For loop review/Numbers in row.py" beforeDir="false" afterPath="$PROJECT_DIR$/For loop review/Numbers in row.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
