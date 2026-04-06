@@ -12,14 +12,14 @@ how_many_wins = 0
 for tournament in range(number_of_tournament):
     classification = input()
     if classification == 'W':
-        total_points += int('w')
+        total_points += W
         how_many_wins += 1
     elif classification == 'F':
-        total_points += int('F')
+        total_points += F
     elif classification == 'SF':
-        total_points += int('SF')
+        total_points += SF
 
-average_points = math.floor(total_points / number_of_tournament)
+average_points = math.floor((total_points - initial_points) / number_of_tournament)
 tournaments_won = (how_many_wins / number_of_tournament) * 100
 
 print(f"Final points: {total_points}")
