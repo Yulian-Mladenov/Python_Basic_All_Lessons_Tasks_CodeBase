@@ -57,3 +57,52 @@
 #         break
 #
 #     matching_password = input()
+
+
+
+# name = input()
+# password = input()
+#
+# while True:
+#     password_confirmation = input()
+#     if password_confirmation == password:
+#         print(f"Welcome {username}!")
+#         break
+#     else:
+#         print('Please try another password')
+
+name = input()
+password = input()
+
+while True:
+    print('Please enter password')
+    password_confirmation = input()
+    if password_confirmation == password:
+        print(f"Welcome {name}!")
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
