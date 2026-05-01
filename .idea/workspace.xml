@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9b8a20d-5630-4725-9f05-18751aea6131" name="Changes" comment="" />
+    <list default="true" id="e9b8a20d-5630-4725-9f05-18751aea6131" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Coins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/while_loop_exercise/Vacantion.py" beforeDir="false" afterPath="$PROJECT_DIR$/while_loop_exercise/Vacantion.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.Vacantion">
+  <component name="RunManager" selected="Python.Steps">
     <configuration name="Exam preparation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +98,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Steps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/while_loop_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop_exercise/Steps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vacantion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Steps" />
         <item itemvalue="Python.Vacantion" />
         <item itemvalue="Python.Exam preparation" />
         <item itemvalue="Python.Old library" />
@@ -201,7 +228,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/while_loop_exercise/Vacantion.py</url>
-          <line>23</line>
+          <line>32</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
