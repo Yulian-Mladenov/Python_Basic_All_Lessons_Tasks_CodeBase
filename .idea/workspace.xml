@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9b8a20d-5630-4725-9f05-18751aea6131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Cake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Moving in new house.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_loop_exercise/Coins.py" beforeDir="false" afterPath="$PROJECT_DIR$/while_loop_exercise/Coins.py" afterDir="false" />
-    </list>
+    <list default="true" id="e9b8a20d-5630-4725-9f05-18751aea6131" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PYTHON - FUNDAMENTALS/Python_Fundamentals_All_Tasks_CodeBase" />
   </component>
   <component name="RunManager" selected="Python.Moving in new house">
     <configuration name="Cake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
