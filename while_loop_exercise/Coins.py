@@ -1,16 +1,28 @@
-two_leva =
-one_lev = 0
-fifty_cents = 0.50
-twenty_cents = 0.25
-ten_cents = 0.10
-five_cent = 0.05
-two_cent = 0.02
-one_cent = 0.01
+amount = round(float(input()) * 100)
+coins = 0
 
-while True:
-    resto = float(input())
-    parsed_sum = int(resto)
-    if parsed_sum % 100 == 0:
-        one_lev = 1
-        print(one_lev)
-        break
+coins += amount // 200  # монети от 2лв
+amount %= 200
+
+coins += amount // 100  # монети от 1лв
+amount %= 100
+
+coins += amount // 50  # монети от 0,50лв
+amount %= 50
+
+coins += amount // 20  # монети от 0,20лв
+amount %= 20
+
+coins += amount // 10  # монети от 0,10лв
+amount %= 10
+
+coins += amount // 5  # монети от 0,05лв
+amount %= 5
+
+coins += amount // 2  # монети от 0,02лв
+amount %= 2
+
+coins += amount // 1  # монети от 0,01лв
+amount %= 1
+
+print(coins)

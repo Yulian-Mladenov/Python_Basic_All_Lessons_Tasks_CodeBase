@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b8a20d-5630-4725-9f05-18751aea6131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Coins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Cake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while_loop_exercise/Moving in new house.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_loop_exercise/Vacantion.py" beforeDir="false" afterPath="$PROJECT_DIR$/while_loop_exercise/Vacantion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/while_loop_exercise/Coins.py" beforeDir="false" afterPath="$PROJECT_DIR$/while_loop_exercise/Coins.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.Steps">
-    <configuration name="Exam preparation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Moving in new house">
+    <configuration name="Cake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop_exercise/Exam preparation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop_exercise/Cake.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Graduation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Coins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/while_loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/while_loop_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop/Graduation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop_exercise/Coins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Old library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Moving in new house" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Basic_All_Lessons_Tasks_CodeBase" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/while loop exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/while_loop_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while loop exercise/Old library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/while_loop_exercise/Moving in new house.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Moving in new house" />
+        <item itemvalue="Python.Cake" />
+        <item itemvalue="Python.Coins" />
         <item itemvalue="Python.Steps" />
         <item itemvalue="Python.Vacantion" />
-        <item itemvalue="Python.Exam preparation" />
-        <item itemvalue="Python.Old library" />
-        <item itemvalue="Python.Graduation" />
       </list>
     </recent_temporary>
   </component>
